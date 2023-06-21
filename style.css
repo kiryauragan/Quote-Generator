@@ -6,12 +6,46 @@
 
 body {
     font-family: 'Comfortaa', cursive;
+    background: rgb(159, 187, 190);
 }
 
 .container {
     width: 95%;
-    height: 100vh;
+    margin-top: 15%;
+}
+
+.quotes {
+    width: 70%;
+    height: 300px;
+    margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 30px;
+    color: rgb(70, 67, 67);
+    background-color: lavender;
+    border: 10px solid rgb(224, 238, 169);
+    margin-bottom: 20px;
+}
+
+.quotes p {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.quotes h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.divButton{
+    text-align: center;
+}
+
+@media(max-width: 720px) {
+    .quotes p, .quotes h3 {
+        font-size: 1rem;
+    }
 }
